@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form } from "./Form.jsx";
+import { Agenda } from "./Agenda.jsx";
 
 
 
@@ -7,7 +7,7 @@ import { Form } from "./Form.jsx";
 const Home = () => {
 	return (
 		<div className="">
-			<Form />
+			<Agenda />
 		</div>
 	);
 };
